@@ -40,7 +40,7 @@ public class Javachallenge {
         String perfectScore = "perfectScore.txt";
         String zeroScore = "zeroScore.txt";
         String scoresFile = "scoresFile.txt";
-        File file = new File(zeroScore);
+        File file = new File(scoresFile);
         game g = new game(file);
         g.showScores();
 
